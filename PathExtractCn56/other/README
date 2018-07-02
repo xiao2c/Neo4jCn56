@@ -1,0 +1,11 @@
+Maven version: 3.5.2
+Java version: 1.8.x
+
+Build with maven command:
+  mvn package
+
+Build output in 'target' directory:
+  neo4j.path-0.1-jar-with-dependencies.jar
+
+Run program: (e.g. Input file alist1.txt, depth 5, output directory './out')
+  java -jar neo4j.path-0.1-jar-with-dependencies.jar alist1.txt 5 out
